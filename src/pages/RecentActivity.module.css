@@ -1,0 +1,57 @@
+.activityContainer {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  padding: 2rem;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.activityHeading {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-bottom: 1.5rem;
+}
+
+.activityTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.activityTable th,
+.activityTable td {
+  color: #fff;
+  padding: 0.75rem 1rem;
+}
+
+.activityTable th {
+  border-bottom: 2px solid #5e5e5e;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.activityTable td {
+  border-bottom: 1px solid #323232;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.activityTable tr:hover td {
+  background: rgba(255,255,255,0.06);
+}
+
+@media (max-width: 600px) {
+  .activityContainer {
+    padding: 1rem;
+  }
+  .activityHeading {
+    font-size: 1.3rem;
+  }
+  .activityTable th, .activityTable td {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+  }
+}
